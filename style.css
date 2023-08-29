@@ -1,0 +1,50 @@
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(83, 122, 134)
+        }
+        
+        #main {
+            padding: 20px;
+        }
+
+        #title {
+            font-family: Oswald;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transform: scaleX(1.0);
+            
+        }
+
+        #img-div {
+            margin-top: 20px;
+        }
+
+        #image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #img-caption {
+            margin-top: 10px;
+            font-size:12px
+        }
+
+        #tribute-info {
+            margin-top: 20px;
+        }
+        #info{
+            font-size:12px
+        }
+
+        #tribute-link {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: blue;
+        }
