@@ -16,7 +16,7 @@
             font-weight: bold;
             margin-bottom: 10px;
             transform: scaleX(1.0);                 
-            transition: all 1s ease-out;
+            transition: all 3s ease-out;
             text-shadow:-2px -2px 2px #aaa;
 
         }
@@ -53,5 +53,5 @@
             width: 5em;
             height: 5em;
             -webkit-transform: rotate(360deg);
-            transition:1s;
+            transition:3s;
         }
