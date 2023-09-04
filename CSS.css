@@ -13,18 +13,17 @@
             font-weight: bold;
             margin-bottom: 10px;
             transform: scaleX(1.0);                 
-            animation: agrandar 1.5s ease-in-out forwards; 
-        }
+            animation: agrandar 1.5s ease-in-out forwards;
+        text-shadow:-2px -2px 2px #aaa;}
         @keyframes agrandar {
                 0% {
                   font-size: 16px; /* Tamaño inicial */
                 }
                 100% {
-                  font-size: 50px; /* Tamaño más grande al final de la animación */
+                  font-size: 60px; /* Tamaño más grande al final de la animación */
                 }
               }
             
-        
               
         #img-div {
             margin-top: 20px;
