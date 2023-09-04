@@ -53,6 +53,5 @@
             width: 5em;
             height: 5em;
             -webkit-transform: rotate(360deg);
-            transform: rotate(deg);
             transition:1s;
         }
