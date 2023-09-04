@@ -5,32 +5,36 @@
             padding: 0;
             background-color:rgb(83, 122, 134)
         }
-        
         #main {
             padding: 20px;
         }
-
         #title {
             font-family:  'Metal Mania';
-            font-size: 50px;
             font-weight: bold;
             margin-bottom: 10px;
             transform: scaleX(1.0);                 
-            transition: all 3s ease-out;
-            text-shadow:-2px -2px 2px #aaa;
-
+            animation: agrandar 1.5s ease-in-out forwards; 
         }
+        @keyframes agrandar {
+                0% {
+                  font-size: 16px; /* Tamaño inicial */
+                }
+                100% {
+                  font-size: 50px; /* Tamaño más grande al final de la animación */
+                }
+              }
+            
+        
+              
         #img-div {
             margin-top: 20px;
         }
-
         #image {
             max-width: 100%;
             height: auto;
             display: block;
             margin: 0 auto;
         }
-
         #img-caption {
             margin-top: 10px;
             font-size:12px
@@ -51,7 +55,16 @@
         }
         #logo-btn{
             width: 5em;
-            height: 5em;
-            -webkit-transform: rotate(360deg);
-            transition:3s;
+            height: 5em; 
+            transform: rotate(0deg);
+            transform-origin:center;
+            animation: rotarLogo 1.5s ease-in-out forwards;
+        }
+        @keyframes rotarLogo {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
         }
